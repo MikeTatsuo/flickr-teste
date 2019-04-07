@@ -1,6 +1,3 @@
----
----
-
 $(document).ready(() => {
     var settings = {
         "async": true,
@@ -13,7 +10,7 @@ $(document).ready(() => {
         "data": {
           "method": "flickr.photos.getRecent",
           "format": "json",
-          "api_key": "{{ site.env.FLICKR_API_KEY }}",
+          "api_key": "2985e9952038138ba6c4f48626034f86", // Em produção essa chave deve ser armazenada em uma environmental variable
           "privacy_key": 1,
           "per_page": 6,
           "nojsoncallback": 1
