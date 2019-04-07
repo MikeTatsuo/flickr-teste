@@ -2,4 +2,5 @@
 layout: home
 title: Imagens recentes do flickr
 ---
-<div id="images"></div>
+<div id="images" class="row">
+</div>
